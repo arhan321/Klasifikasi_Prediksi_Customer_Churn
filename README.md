@@ -29,7 +29,7 @@ Dataset yang dipakai: **Telco Customer Churn** (Kaggle)
 - Sumber (Kaggle): https://www.kaggle.com/datasets/blastchar/telco-customer-churn  
 - File CSV yang umum: `WA_Fn-UseC_-Telco-Customer-Churn.csv`
 
-### Penempatan dataset (penting)
+### Penempatan dataset
 Di notebook, dataset dibaca dari path berikut:
 
 ```text
