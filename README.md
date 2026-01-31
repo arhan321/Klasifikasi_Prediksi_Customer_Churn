@@ -36,20 +36,6 @@ Di notebook, dataset dibaca dari path berikut:
 dataaset/WA_Fn-UseC_-Telco-Customer-Churn.csv
 ```
 
-Jadi pastikan struktur folder kamu seperti ini:
-
-```text
-project/
-├─ Klasifikasi_Prediksi_Customer_Churn_(Telekomunikasi).ipynb
-├─ dataaset/
-│  └─ WA_Fn-UseC_-Telco-Customer-Churn.csv
-└─ (output) model_churn_rf.joblib
-```
-
-Kalau kamu menaruh file CSV di tempat lain, ubah variabel `path` pada cell **Load dataset**.
-
----
-
 ## Alur Pengerjaan (Workflow)
 1. **Import library** yang dibutuhkan (NumPy, Pandas, scikit-learn, Matplotlib).
 2. **Load dataset** dari file CSV.
